@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Leads | Tree Service Beaverton</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="stylesheet" href="/assets/css/admin.css">
+</head>
+<body class="admin">
+<main class="adm-wrap">
+  <section id="login" class="adm-login" hidden>
+    <img src="/assets/img/logo.svg" width="225" height="64" alt="Tree Service Beaverton">
+    <h1 class="h2">Leads dashboard</h1>
+    <form id="login-form" class="field">
+      <label for="pw">Password</label>
+      <input id="pw" type="password" autocomplete="current-password" required>
+      <button class="btn btn-primary" type="submit">Open dashboard</button>
+      <p id="login-msg" class="adm-msg" role="alert"></p>
+    </form>
+  </section>
+
+  <section id="dash" hidden>
+    <header class="adm-top">
+      <h1 class="h2">Leads</h1>
+      <div class="adm-actions">
+        <button id="refresh" class="btn btn-ghost" type="button">Refresh</button>
+        <button id="export" class="btn btn-ghost" type="button">Export CSV</button>
+        <button id="signout" class="btn btn-ghost" type="button">Sign out</button>
+      </div>
+    </header>
+    <div id="counters" class="adm-counters"></div>
+    <div class="adm-filters">
+      <div class="field"><label for="q">Search</label><input id="q" type="search" placeholder="Name, phone, address, details"></div>
+      <div class="field"><label for="f-status">Status</label><select id="f-status"><option value="">All statuses</option></select></div>
+      <div class="field"><label for="f-service">Service</label><select id="f-service"><option value="">All services</option></select></div>
+    </div>
+    <p id="dash-msg" class="adm-msg" role="status"></p>
+    <div class="adm-grid">
+      <ul id="list" class="adm-list" aria-label="Leads"></ul>
+      <aside id="detail" class="adm-detail" aria-live="polite"><p class="small">Pick a lead to see the details.</p></aside>
+    </div>
+  </section>
+</main>
+<script src="/assets/js/admin.js" defer></script>
+</body>
+</html>
