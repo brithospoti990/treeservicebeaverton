@@ -1,0 +1,20 @@
+{
+  "name": "Tree Service Beaverton",
+  "short_name": "Tree Service",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#EEF2EC",
+  "theme_color": "#12382C",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

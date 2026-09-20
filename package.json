@@ -1,0 +1,7 @@
+{
+  "name": "treeservicebeaverton",
+  "version": "1.5.0",
+  "private": true,
+  "description": "Static site and lead functions for treeservicebeaverton.net",
+  "engines": { "node": "22.x" }
+}
